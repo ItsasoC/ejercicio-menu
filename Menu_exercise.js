@@ -116,7 +116,7 @@ function elegir_platos(tipo_plato){
 var mensaje1 = `Elige ${tipo_plato}: \n`
 
 menu[tipo_comida][tipo_plato].forEach(plato => {
-  mensaje1 += `${plato.nombre}\n`;
+  mensaje1 += `${plato.nombre} (${plato.precio} €)\n`;
 }); 
 
 var verificar_plato = false;
